@@ -1,22 +1,45 @@
-¡Me complace compartir el emocionante proyecto en el que he estado inmerso recientemente! Se trata de una exploración 
-y visualización de datos en el ámbito del comercio electrónico internacional, centrándome específicamente en la variabilidad de precios de Guitarras Eléctricas en eBay.
-El codigo, tiene separado la parte donde filtrar la busqueda de producto, asi que podes consumir la api desde tu codigo y usarlo!
-Yo seleccione los primeros 1800 resultados para ampliar la aparicion de paises pero podes filtrar la cantidad de resultados que necesites
+# 🎸 Análisis de Precios de Guitarras Eléctricas en eBay 🌍
 
-Herramientas Utilizadas
-Selenium: Para la automatización del web scraping y la extracción precisa de datos desde la plataforma eBay.
-Python con Pandas: Para el procesamiento eficiente de datos y la creación de un DataFrame estructurado.
-Matplotlib y Seaborn: Herramientas poderosas para la visualización de datos, permitiendo la creación de gráficos impactantes y significativos.
+Este proyecto explora la variabilidad de precios de guitarras eléctricas a nivel internacional a través de datos extraídos desde eBay. El análisis busca ofrecer una visión clara del mercado global, ayudando a detectar diferencias regionales, oportunidades comerciales y tendencias de precios.
 
-Logros Destacados
-Gráfico de Dispersión de Precios Mínimos y Máximos: Visualización efectiva de la variabilidad de precios por país, proporcionando una perspectiva clara de las ofertas más bajas y más altas.
+---
 
-Cuadro de Datos Detallados: Diseño de un cuadro informativo que resume precios mínimos y máximos, ofreciendo una referencia rápida para entender la diversidad de precios en diferentes regiones.
+## 🔧 Herramientas Utilizadas
 
-Gráfico de Torta de Porcentajes por País: Presentación atractiva del porcentaje de productos disponibles en cada país, proporcionando una visión sobre la participación relativa en el mercado internacional.
+- **Selenium**: Automatización del web scraping para la recolección precisa de datos desde eBay.
+- **Python con Pandas**: Procesamiento de datos y construcción del DataFrame estructurado.
+- **Matplotlib y Seaborn**: Visualización de los resultados con gráficos claros e informativos.
 
-Gráfico de Barras del Promedio de Precios: Destacando el promedio de precios por país mediante un gráfico de barras, facilitando la identificación de las regiones con precios más competitivos.
-Impacto Global
-Estos análisis no solo ofrecen una visión detallada del mercado de guitarras eléctricas en eBay, sino que también tienen aplicaciones prácticas en la formulación de estrategias comerciales, identificación de oportunidades de mercado y toma de decisiones informadas en un entorno comercial internacional.
+---
 
+## 📁 Estructura del Proyecto
 
+- Código modularizado: la parte de filtrado y consumo de la API está separada, lo que permite reutilizarla fácilmente en otros proyectos.
+- Extracción de datos: se seleccionaron 1800 resultados para ampliar la diversidad geográfica, aunque podés ajustar ese número según tu necesidad.
+
+---
+
+## 📊 Visualizaciones y Análisis
+
+- **Gráfico de Dispersión**: muestra los precios mínimos y máximos por país, ideal para detectar rangos y extremos.
+- **Cuadro de Datos**: resumen tabulado con los valores clave (mínimos y máximos), útil como referencia rápida.
+- **Gráfico de Torta**: muestra el porcentaje de productos por país, visualizando la participación de cada región.
+- **Gráfico de Barras Promedio**: destaca los precios promedio por país, ayudando a identificar zonas con precios más competitivos.
+
+---
+
+## 🌐 Impacto Global
+
+Este análisis no solo muestra cómo varían los precios entre países, sino que también tiene aplicaciones reales en:
+
+- Estrategias comerciales internacionales
+- Detección de oportunidades de mercado
+- Toma de decisiones basada en datos reales
+
+---
+
+> **Nota**: Este proyecto tiene fines educativos y de práctica en análisis de datos, automatización y visualización. No representa una investigación oficial ni comercial.
+
+---
+
+¿Querés explorar más proyectos o conectar para colaborar? Mirá el resto de mi [portafolio en GitHub](https://github.com/ignacio-leonel).
